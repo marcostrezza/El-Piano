@@ -1,0 +1,36 @@
+body {
+    background-color: #8a2be2;
+}
+
+div.piano {
+    background-color: #000000;
+    width: 500px;
+    height: 190px;
+    border-radius: 15px;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    padding: 8px;
+    display: flex;
+}
+
+div.teclas-blancas {
+    background-color: #ffffff;
+    width: 50px;
+    height: 110px;
+    margin: 2px;
+    position: relative;
+    top: 70px;
+}
+
+div.teclas-blancas:hover {
+    background-color: #ffd700;
+}
+
+div.teclas-negras {
+    background-color: #000000;
+    width: 25px;
+    height: 50px;
+    position: absolute;
+    left: -10px;
+}
